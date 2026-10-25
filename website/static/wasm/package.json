@@ -1,0 +1,19 @@
+{
+  "name": "ddex-parser-wasm",
+  "type": "module",
+  "collaborators": [
+    "DDEX Parser Contributors"
+  ],
+  "version": "0.4.2",
+  "license": "MIT",
+  "files": [
+    "ddex_parser_wasm_bg.wasm",
+    "ddex_parser_wasm.js",
+    "ddex_parser_wasm.d.ts"
+  ],
+  "main": "ddex_parser_wasm.js",
+  "types": "ddex_parser_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

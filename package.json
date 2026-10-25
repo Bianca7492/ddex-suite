@@ -1,0 +1,11 @@
+{
+  "name": "ddex-suite",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "ddex-builder": "^0.4.2",
+    "ddex-parser": "^0.4.2"
+  }
+}
